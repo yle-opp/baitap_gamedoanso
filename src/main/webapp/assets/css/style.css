@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+ 
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.imagebackground img {
+	height: 100%;
+  	width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-clip: content-box;
+}
+
+.imagebackground .playgame {
+    height: 200px;
+    width: 280px;
+    background-color: rgba(0 200 255 / 60%);
+    border-radius: 30%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.playgame :hover {
+	 opacity: 2;
+}
+.content {
+	height:100%;
+	width:100%;
+	background-color: #008080;
+	text-align: center;
+}
+.heading1 {
+	margin: 0 auto;
+	padding-top: 100px;
+	font-weight: bold;
+	color: yellow;
+	font-size: 70px;
+}
+
+.form_game {
+	text-align: center;
+	margin-top: 40px;
+	
+}
+.form_game_text {
+	padding: 15px;
+	width: 300px;
+	
+	
+}
+.form_game_submit {
+	width: 120px;
+	padding: 15px;
+	background-color: black;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+label {
+	margin-top: 23px;
+}
+.text_input {
+	margin-bottom: 10px;
+}
