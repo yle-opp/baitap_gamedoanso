@@ -9,7 +9,7 @@
 <title>Page Game </title>
 </head>
 <body>
- 	
+ 	<%String path =  request.getContextPath();%>
 	<div class="imagebackground" >
 		 <img alt="" src="./assets/image/anhbia.png">
 		<form action="" method="post" class="playgame"> 

@@ -20,10 +20,19 @@
 				<h2><%=request.getAttribute("message") %></h2>
 					
 			<%	} %>
-			<br/>
-			<input type="submit" name="btnexit" value="thoatgame" class="form_game_submit">
-			
+			<br/><br/>
+			<input type="submit" name="btnexit" value="Exit Game" class="form_game_submit">
+			<input type="submit" name="btnrate" value="Xếp Hạng " class="form_game_submit">
+			<br/><br/>
+			<% if(request.getAttribute("xephang")!=null){ %>
+				<h2><%=request.getAttribute("xephang") %></h2>
+				<h2>Tên người chơi : <%=request.getAttribute("tennnguoichoi") %></h2>
+				<h2>Số lần dự đoán : <%=request.getAttribute("solandudoan") %></h2>
+					
+			<%	} %>
 		</form>
+		
+		
 	</div>
 </body>
 </html>
